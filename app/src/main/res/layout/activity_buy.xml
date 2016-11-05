@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="25dp"
+    android:paddingTop="175dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="ITEM"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="QTY"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="PRICE"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Rice"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="17sp"/>
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+            android:id="@+id/rangeSeekbar1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            app:bar_color="@color/barlight"
+            app:bar_highlight_color="@color/bar"
+            app:left_thumb_color="@color/bar"
+            app:left_thumb_color_pressed="@color/dblue"
+            />
+
+        <TextView
+            android:id="@+id/rqt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="5kg"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/rp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Wheat"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="17sp"/>
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+            android:id="@+id/rangeSeekbar2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            app:bar_color="@color/barlight"
+            app:bar_highlight_color="@color/bar"
+            app:left_thumb_color="@color/bar"
+            app:left_thumb_color_pressed="@color/dblue"
+            />
+
+        <TextView
+            android:id="@+id/wqt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="5kg"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/wp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Sugar"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="17sp"/>
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+            android:id="@+id/rangeSeekbar3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            app:bar_color="@color/barlight"
+            app:bar_highlight_color="@color/bar"
+            app:left_thumb_color="@color/bar"
+            app:left_thumb_color_pressed="@color/dblue"
+            />
+
+        <TextView
+            android:id="@+id/sqt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="2kg"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="22"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Kerosene"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="17sp"/>
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+            android:id="@+id/rangeSeekbar4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            app:bar_color="@color/barlight"
+            app:bar_highlight_color="@color/bar"
+            app:left_thumb_color="@color/bar"
+            app:left_thumb_color_pressed="@color/dblue"
+            />
+
+        <TextView
+            android:id="@+id/kqt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="1ltr"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/kp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="ok"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.07"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="Total Cost: Rs."
+            android:id="@+id/cost_words"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:text="150"
+            android:textColor="@color/grey"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="17sp"
+            android:text="DONE"/>
+    </LinearLayout>
+
+</LinearLayout>
